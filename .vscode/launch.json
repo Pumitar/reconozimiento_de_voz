@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: reto_modificado (conda sintesis_de_voz)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/reto_modificado.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CONDA_DEFAULT_ENV": "sintesis_de_voz",
+                "PATH": "${env:USERPROFILE}\\anaconda3\\envs\\sintesis_de_voz;${env:PATH}"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "justMyCode": true
+        },
+        {
+            "name": "reto mejorado",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/reto_modificado_mejorado.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CONDA_DEFAULT_ENV": "sintesis_de_voz",
+                "PATH": "${env:USERPROFILE}\\anaconda3\\envs\\sintesis_de_voz;${env:PATH}"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "justMyCode": true
+        }
+    ]
+}
